@@ -2,9 +2,10 @@
   "name": "backend",
   "version": "1.0.0",
   "main": "server.cjs",
+  "engines": { "node": ">=18" },
   "scripts": {
-    "dev": "node server.cjs",
-    "start": "node server.cjs"
+    "start": "node server.cjs",
+    "dev": "node server.cjs"
   },
   "dependencies": {
     "cors": "^2.8.5",
